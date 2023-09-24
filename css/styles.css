@@ -170,3 +170,25 @@ h1, h2, h3 {
 	margin: 0 10px;
 	color: #000;
 }
+
+/* my css */
+.gallery-row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+  
+.gallery-column {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+}
+
+.gallery-column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+}
+
+
+
